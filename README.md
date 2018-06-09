@@ -5,7 +5,8 @@ replace some other algorithm by yourself.
 
 Usage: 
 1. apply patch in package to integrate this TA and CA into OP-TEE 
-2. build OP-TEE 3. run CA command 
+2. build OP-TEE 
+3. run CA command 
     A. send message to OP-TEE and save them by secure storage 
         CA command: saveKey save 
     B. Get key which is saved by OP-TEE(value of key will display in OP-TEE) 
